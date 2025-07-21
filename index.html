@@ -1,0 +1,1856 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Home Page</title>
+  
+  <style>
+  	
+  	.header{
+  		position: fixed;
+  		top: 14px;
+  		left:0;
+  		right: 0;
+  		justify-content: space between;
+  		align-content: center;
+  		background-color: white;
+  		font-size: 25px;
+  		font-family: Courier New;
+  		border-bottom: 1px solid gray;
+  		box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+  		height: 60px;
+  		z-index: 1;
+  	}
+  	
+  	.click{
+  		background-color: transparent ;
+  		border: none;
+  		margin-top: -10px;
+  	}
+  	
+  	.click:active{
+  		color:blue;
+  	}
+  	
+  	.search{
+  		width:300px;
+  		height:30px;
+  		margin-top:0px;
+  		border-radius: 20px;
+  		border: 0px solid black  ;
+  		box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+  		background-color: #F0F1EA;
+  	}
+  	
+  	.search::placeholder{
+  		font-size: 20px;
+  	}
+  	
+  	
+  	.div{
+  		display: grid;
+  		grid-template-columns: 1fr 1fr;
+  		
+  	}
+  	
+  	@media (max-width: 400px){
+  		.div{
+  			grid-template-columns: 1fr;
+  		}
+  	}
+  	
+  	.table{
+  	  border: 0px solid gray;
+  	  border-radius: 15px;
+  	  margin-bottom: 15px;
+  	  padding-top: 5px;
+  		padding-bottom: 5px;
+  		background-color: white;
+  		box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+  	}
+  	
+  	.tittle{
+  		color:black;
+  		padding-top: 0px;
+  		padding-bottom: 0px;
+  	}
+  	
+  	.profile {
+  		width:50px; height:50px;
+  		border-radius:25px;
+  		margin:0px;
+  	}
+  	
+  	.app{
+  		width:15px;
+  		border-radius: 3px;
+  		margin-left: -20px;
+  	}
+  	
+  	.link{
+  		color: purple;
+  		text-decoration: none;
+  	}
+  	
+  	.account{
+  		color: gray;
+  		text-decoration: none;
+  	}
+  	
+  	.name{
+  		color: black;
+  		text-decoration: none;
+  		border-radius: 5px;
+  	}
+  	
+  	.name:active{
+  		background-color: lightgray;
+  	}
+  	
+  	.button {
+  		width:90px;
+  		height:30px;
+  		background-color: dodgerblue;
+  		border: none;
+  		border-radius: 5px;
+  		color: white;
+  		font-size: 20px;
+  	}
+  	
+  	.button:active {
+  		background-color: powderblue;
+  	}
+  	
+  	.subscribe{
+  		width:100px;
+  		height:30px;
+  		background-color: red;
+  		border: none;
+  		border-radius: 15px;
+  		color: white;
+  		font-size: 20px;
+
+  	}
+  	
+  	.subscribe:active{
+  		background-color: black ;
+  	}
+  	
+  	.buttons {
+  		font-size: 25px;
+  		font-family: Times New Roman ;
+  		background-color: white;
+  		border: none;
+  		margin-top: 5px;
+  		margin-bottom: 0px;
+  		height: 50px;
+  		border-radius: 5px;
+  	}
+  	
+  	.counter {
+  		font-size: 25px;
+  		font-family: Times New Roman ;
+  		background-color: white;
+  		border: none;
+  		margin-top: -15px;
+  		margin-bottom: 0px;
+  		width: 45px;
+  	}
+
+  	
+  	.buttons:active{
+  		background-color: lightblue ;
+  	}
+  	
+  	.counter:active{
+  		background-color: lightblue ;
+  	}
+  	
+  	.line {
+  		border-top: 1px solid silver;
+  		border-bottom: 1px solid silver;
+  	}
+  	
+
+ 	  .hudai{
+  		width: 8px;
+  		border-radius: 4px;
+  		margin-right: -4px;
+  	}
+  	
+  	.chudai {
+  		width: 8px;
+  		border-radius: 4px;
+  		margin-right: 0px;
+  		
+  	}
+  	
+  	.footer{
+  		display: grid;
+  		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  		font-family: roboto,arial;
+  		font-size: 12.5px;
+  	}
+  	
+  	
+  	.footer img{
+  		width: 25px;
+  		margin-bottom: 5px;
+  	}
+  	
+  	
+  </style>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="
+background-color:#EEEEEE; 
+color: black; 
+font-family:Times New Roman;
+line-height: 0.5;
+padding-top: 100px;
+padding-bottom: 100px;">
+	
+	
+	<!-- Credit -->
+<div style="
+position: fixed;
+top: 0;
+right:0;
+left:0;
+height: 14px;
+justify-content: center;
+background-color: lightskyblue;
+colour: gray;
+font-family: Arial;
+font-size: 10px;
+z-index: 2;" align="center">
+	<br>
+ webpage created by <span style="
+ color: darkred;"><b><strong>SAFAT IBNE MAHMUD</strong></b></span>
+</div>
+
+
+
+<div class="header">
+	<div align="center">
+		<input type="text" class="search"
+		placeholder="Search 🔍">
+	</div>
+	<br>
+	<div class="footer" align="center"
+	 		 style="height: 13px;">
+		<div style="color:blue;
+		text-decoration-line: underline;
+        text-decoration-thickness: 2px;">
+			<b><strong><u>ALL</u></strong></b>
+		</div>
+		<div>
+			<button class="click"><b><strong>Friends</strong></b></button>
+		</div>
+		<div>
+			<button class="click"><b><strong>Subscriptions</strong></b></button>
+		</div>
+		<div><button class="click"><b><strong>Groups</strong></b></button>
+		</div>
+		<div><button class="click"><b><strong>Suggested</strong></b></button>
+		</div>
+	</div>
+</div>
+
+<div class="div">
+	
+	
+	<!-- BBC -->
+<table cellspacing="0" cellpadding="0"
+ 			 align="center" class="table">
+	<tr>
+		
+		<td rowspan="2" align="center">
+			<a class="name" href="https://youtube.com/@bbcnews?si=fQ8zvOHltbPg4Akm">
+				<img src="https://i.postimg.cc/W4M7M4g4/Screenshot-2025-07-20-06-05-39-385-com-google-android-youtube-edit.jpg" class="profile">
+			</a>
+			<img class="app" src="https://i.postimg.cc/KvM3KHnG/images-2.png">
+		</td>
+		
+		<td align="left" 
+			style="font-size:15px;">
+			<strong>
+				<a class="name"
+				href="https://www.instagram.com/bbcnews?igsh=ejRzdm5taWZ3ZHhv"><b>BBC News</b></a>
+			</strong>
+		</td>
+		
+		<td align="center" 
+				style="color:silver; 
+						   font-size:10px;">
+			<a class="link"
+			href="https://x.com/BBCWorld?s=09">@BBCWorld
+			</a>
+		</td>
+		
+		<td rowspan="2" 
+				align="right" 
+				style="color:white; 
+							 font-size:20px;">
+			<button class="subscribe">
+				<strong><b>Subscribe</b></strong>
+			</button> 
+			<button class="buttons">
+			<span style="color:black;">
+				&vellip;
+			</span></button>
+		</td>
+	</tr>
+	
+	<tr>
+		
+		<td colspan="2" 
+				align="left" 
+				style="color:grey; 
+							 font-size:10px;">
+			🌎2 Weeks ago
+		</td>
+		
+	</tr>
+	
+	<tr>
+		
+		<td colspan="4" 
+		  	style="font-size: 15px;">
+			 <div class="tittle"><p>At least 20 dead in latest Israeli strikes,</p><p>say medics in Gaza</p></div>
+		</td>
+		
+	</tr>
+	
+	
+	<tr>
+		
+		<td colspan="4" width="375">
+			
+			<a href="https://youtu.be/iwVaY7Hyo3I?si=Fo9W5TnU6-0bF3G2">
+				<img src="https://i.postimg.cc/Hxd93C99/Screenshot-2025-07-20-06-05-19-935-com-google-android-youtube-edit.jpg" 
+				width="375">
+			</a>
+			
+		</td>
+		
+	</tr>
+	
+	
+	<tr>
+		<td colspan="4">
+			
+			<table width="100%"
+						 cellspacing="0" 
+						 cellpadding="7">
+				
+				<tr>
+					
+					<td align="left"
+						  style="color:grey; 
+						  			 font-size:10px;"
+						  width="33.33%">
+						10:30:45 PM
+					</td>
+					
+					<td align="center" 
+							style="color:grey; 
+										 font-size:10px;"
+						  width="33.33%">
+						30/06/2025
+					</td>
+					
+					<td align="right" 
+							style="color:grey; 
+										 font-size:10px;"
+							width="33.33%">
+						👁️100.609 K
+					</td>
+					
+				</tr>
+				
+				
+				<tr>
+					
+					<td class="line"
+							align="left" 
+							style="color:grey; 
+										font-size:10px;""">
+						😥😡😮
+					</td>
+					
+					<td class="line"
+							colspan="2" 
+							align="right" 
+						  style="color:grey; 
+						   	 		 font-size:10px;">
+						 <b><a class="account" href="">
+						 	Hudai
+						 </a>, <a class="account" href="">Chudai</a></b> 
+						 Liked & Commented
+						 <img class="hudai"
+						 src="https://i.postimg.cc/j5nGsMKw/Screenshot-2025-07-20-01-53-01-580-com-google-android-apps-docs-editors-docs-edit.jpg">
+						 <img src="https://i.postimg.cc/J066ZJ1V/Screenshot-2025-07-20-02-18-18-747-com-google-android-apps-docs-editors-docs-edit.jpg"
+						 class="chudai"> 
+					</td>
+					
+				</tr>
+				
+				
+				<tr>
+					
+					<table width="100%" 
+						 		 cellspacing="0">
+						
+						<tr>
+							
+							<td align="left">
+								
+								<table cellspacing="0">
+									
+									<tr>
+										<td>
+											<button class="buttons">
+											<img width="30"
+											src="https://i.postimg.cc/HxbW6VwJ/IMG-20250717-190641.jpg"></button>
+										</td>
+										
+										<td>
+											<button class="buttons">
+											<img width="30"
+											src="https://i.postimg.cc/br3h5bsv/IMG-20250717-235600.png"></button>
+										</td>
+										
+										<td>
+											<button class="buttons">
+											<img width="30"
+											src="https://i.postimg.cc/bJgWYP8C/3460458-200.png"></button>
+										</td>
+										
+									</tr>
+									
+									
+									<tr style="color:grey; 		 			font-size:12.5px;"
+										align="center">
+										
+										<td>
+											<button class="counter">
+												<span style="color:  	 						 gray; 
+													 			  font-size:
+																	 12.5px;">
+													20k
+												</span>
+											</button>
+										</td>
+
+										<td>
+											<button class="counter">
+												<span style="color:  	 						 gray; 
+													 			  font-size:
+																	 12.5px;">
+													15k
+												</span>
+											</button>
+										</td>
+										
+										<td>
+											<button class="counter">
+												<span style="color:  	 						 gray; 
+													 			  font-size:
+																	 12.5px;">
+													20k
+												</span>
+											</button>
+										</td>
+										
+									</tr>
+									
+								</table>
+								
+							</td>
+							
+							<td align="center" 
+									style="font-size:30px;">
+								<button class="buttons">
+								☰ </button>
+							</td>
+							
+							<td align="right">
+								
+								<table cellspacing="0">
+									
+									<tr>
+										
+										<td>
+											<button class="buttons">
+											<img width="30"
+											src="https://i.postimg.cc/V6k4RCQg/images.png">
+											</button>
+										</td>
+										
+										<td>
+											<button class="buttons">
+												<img width="30"
+											src="https://i.postimg.cc/g2yDbDG4/IMG-20250717-190623.jpg">
+											</button>
+										</td>
+										
+										<td>
+											<button class="buttons">
+												<img width="30"
+											src="https://i.postimg.cc/g2LCV1qj/60239-like-icons-bookmark-button-computer-facebook-instagram.png">
+											</button>
+										</td>
+										
+									</tr>
+									
+									<tr style="color:grey; 		 			font-size:12.5px;"
+										align="center">
+										
+										<td>
+											<button class="counter">
+												<span style="color:  	 						 gray; 
+													 			  font-size:
+																	 12.5px;">
+													20k
+												</span>
+											</button>
+										</td>
+
+										<td>
+											<button class="counter">
+												<span style="color:  	 						 gray; 
+													 			  font-size:
+																	 12.5px;">
+													15k
+												</span>
+											</button>
+										</td>
+										
+										<td>
+											<button class="counter">
+												<span style="color:  	 						 gray; 
+													 			  font-size:
+																	 12.5px;">
+													20k
+												</span>
+											</button>
+										</td>
+										
+									</tr>
+									
+								</table>
+								
+							</td>
+							
+						</tr>
+						
+					</table>
+					
+				</tr>
+				
+			</table>
+			
+		</td>
+		
+	</tr>
+	
+</table>
+
+
+<!-- Nobody 2 -->
+<table cellspacing="0" cellpadding="0"
+ 			 align="center" class="table">
+	<tr>
+		
+		<td rowspan="2" align="center">
+			<a class="name" href="https://x.com/NobodyMovie?s=09">
+				<img src="https://pbs.twimg.com/profile_images/1922307949839757312/LSO2n5xT.jpg" class="profile">
+			</a>
+			<img class="app" src="https://pbs.twimg.com/profile_images/1683899100922511378/5lY42eHs.jpg">
+		</td>
+		
+		<td align="left" 
+			style="font-size:15px;">
+			<strong>
+				<a class="name"
+				href="https://www.facebook.com/share/1M7Ci4sziM/"><b>Nobody</b></a>
+			</strong>
+		</td>
+		
+		<td align="center" 
+				style="color:silver; 
+						   font-size:10px;">
+		
+			
+		</td>
+		
+		<td rowspan="2" 
+				align="right" 
+				style="color:white; 
+							 font-size:20px;">
+			<button class="button">
+				<strong><b>Follow</b></strong>
+			</button> 
+			<button class="buttons">
+			<span style="color:black;">
+				&vellip;
+			</span></button>
+		</td>
+	</tr>
+	
+	<tr>
+		
+		<td colspan="2" 
+				align="left" 
+				style="color:grey; 
+							 font-size:10px;">
+			🌎3 Months ago
+		</td>
+		
+	</tr>
+	
+	<tr>
+		
+		<td colspan="4" 
+		  	style="font-size: 15px;">
+			 <div class="tittle"><p>Nobody ruins his vacation.</p>
+			 	 <p><span style="color:blue">#Nobody2</span> hits theaters <b>August 15</b></p>
+			 	</div>
+		</td>
+		
+	</tr>
+	
+	
+	<tr>
+		
+		<td colspan="4" width="375">
+			
+			<a href="https://x.com/NobodyMovie/status/1922305853232652371?s=19">
+				<img src="https://i.postimg.cc/D0pqStV1/Screenshot-2025-07-21-14-04-20-724-com-google-android-youtube-edit.jpg" 
+				width="375">
+			</a>
+			
+		</td>
+		
+	</tr>
+	
+	
+	<tr>
+		<td colspan="4">
+			
+			<table width="100%"
+						 cellspacing="0" 
+						 cellpadding="7">
+				
+				<tr>
+					
+					<td align="left"
+						  style="color:grey; 
+						  			 font-size:10px;"
+						  width="33.33%">
+						9:00:00 PM
+					</td>
+					
+					<td align="center" 
+							style="color:grey; 
+										 font-size:10px;"
+						  width="33.33%">
+						13/05/2025
+					</td>
+					
+					<td align="right" 
+							style="color:grey; 
+										 font-size:10px;"
+							width="33.33%">
+						👁️7.5 M
+					</td>
+					
+				</tr>
+				
+				
+				<tr>
+					
+					<td class="line"
+							align="left" 
+							style="color:grey; 
+										font-size:10px;""">
+						🙌❤️🤯
+					</td>
+					
+					<td class="line"
+							colspan="2" 
+							align="right" 
+						  style="color:grey; 
+						   	 		 font-size:10px;">
+						 <b><a class="account" href="https://x.com/rheaseehorn?s=09">
+						 	Rhea Seehorn
+						 </a>, <a class="account" href="https://x.com/PatrickFabian?s=09">Patrick Fabian</a></b> 
+						 Liked
+						 <img class="hudai"
+						 src="https://pbs.twimg.com/profile_images/1798871271348043776/a_G5HR2i.jpg">
+						 <img src="https://pbs.twimg.com/profile_images/1676857754227740672/hSW_w05m.jpg"
+						 class="chudai"> 
+					</td>
+					
+				</tr>
+				
+				
+				<tr>
+					
+					<table width="100%" 
+						 		 cellspacing="0">
+						
+						<tr>
+							
+							<td align="left">
+								
+								<table cellspacing="0">
+									
+									<tr>
+										<td>
+											<button class="buttons">
+											<img width="30"
+											src="https://i.postimg.cc/HxbW6VwJ/IMG-20250717-190641.jpg"></button>
+										</td>
+										
+										<td>
+											<button class="buttons">
+											<img width="30"
+											src="https://i.postimg.cc/br3h5bsv/IMG-20250717-235600.png"></button>
+										</td>
+										
+										<td>
+											<button class="buttons">
+											<img width="30"
+											src="https://i.postimg.cc/bJgWYP8C/3460458-200.png"></button>
+										</td>
+										
+									</tr>
+									
+									
+									<tr style="color:grey; 		 			font-size:12.5px;"
+										align="center">
+										
+										<td>
+											<button class="counter">
+												<span style="color:  	 						 gray; 
+													 			  font-size:
+																	 12.5px;">
+													10K
+												</span>
+											</button>
+										</td>
+
+										<td>
+											<button class="counter">
+												<span style="color:  	 						 gray; 
+													 			  font-size:
+																	 12.5px;">
+													1K
+												</span>
+											</button>
+										</td>
+										
+										<td>
+											<button class="counter">
+												<span style="color:  	 						 gray; 
+													 			  font-size:
+																	 12.5px;">
+													305
+												</span>
+											</button>
+										</td>
+										
+									</tr>
+									
+								</table>
+								
+							</td>
+							
+							<td align="center" 
+									style="font-size:30px;">
+								<button class="buttons">
+								☰ </button>
+							</td>
+							
+							<td align="right">
+								
+								<table cellspacing="0">
+									
+									<tr>
+										
+										<td>
+											<button class="buttons">
+											<img width="30"
+											src="https://i.postimg.cc/V6k4RCQg/images.png">
+											</button>
+										</td>
+										
+										<td>
+											<button class="buttons">
+												<img width="30"
+											src="https://i.postimg.cc/g2yDbDG4/IMG-20250717-190623.jpg">
+											</button>
+										</td>
+										
+										<td>
+											<button class="buttons">
+												<img width="30"
+											src="https://i.postimg.cc/g2LCV1qj/60239-like-icons-bookmark-button-computer-facebook-instagram.png">
+											</button>
+										</td>
+										
+									</tr>
+									
+									<tr style="color:grey; 		 			font-size:12.5px;"
+										align="center">
+										
+										<td>
+											<button class="counter">
+												<span style="color:  	 						 gray; 
+													 			  font-size:
+																	 12.5px;">
+													2.5 K
+												</span>
+											</button>
+										</td>
+
+										<td>
+											<button class="counter">
+												<span style="color:  	 						 gray; 
+													 			  font-size:
+																	 12.5px;">
+													1K
+												</span>
+											</button>
+										</td>
+										
+										<td>
+											<button class="counter">
+												<span style="color:  	 						 gray; 
+													 			  font-size:
+																	 12.5px;">
+													1.5 K
+												</span>
+											</button>
+										</td>
+										
+									</tr>
+									
+								</table>
+								
+							</td>
+							
+						</tr>
+						
+					</table>
+					
+				</tr>
+				
+			</table>
+			
+		</td>
+		
+	</tr>
+	
+</table>
+
+
+
+	<!-- GAY -->
+<table cellspacing="0" cellpadding="0"
+ 			 align="center" class="table">
+	<tr>
+		
+		<td rowspan="2" align="center">
+			<a class="name" href="https://www.instagram.com/simonkaggwanjal?igsh=MWw3d2x0ZGxtMjUzZg==">
+				<img src="https://i.postimg.cc/bwwyLNmL/Screenshot-2025-07-21-03-41-28-801-com-instagram-android-edit.jpg" class="profile">
+			</a>
+			<img class="app" src="https://i.postimg.cc/cCcxJKVm/Instagram-icon.png">
+		</td>
+		
+		<td align="left" 
+			style="font-size:15px;">
+			<strong>
+				<a class="name"
+				href="https://youtube.com/@simonkaggwanjal?si=RuDqQFcN8qZ4Vjmg"><b>Simon Kaggwa Njala</b></a>
+			</strong>
+		</td>
+		
+		<td align="center" 
+				style="color:silver; 
+						   font-size:10px;">
+		
+		</td>
+		
+		<td rowspan="2" 
+				align="right" 
+				style="color:white; 
+							 font-size:20px;">
+			<button class="button">
+				<strong><b>Follow</b></strong>
+			</button> 
+			<button class="buttons">
+			<span style="color:black;">
+				&vellip;
+			</span></button>
+		</td>
+	</tr>
+	
+	<tr>
+		
+		<td colspan="2" 
+				align="left" 
+				style="color:grey; 
+							 font-size:10px;">
+			🌎6 Months ago
+		</td>
+		
+	</tr>
+	
+	<tr>
+		
+		<td colspan="4" 
+		  	style="font-size: 15px;">
+			 <div class="tittle"><p>Send this to your friends🤣</p></div>
+		</td>
+		
+	</tr>
+	
+	
+	<tr>
+		
+		<td colspan="4" width="375">
+			
+			<a href="https://www.instagram.com/reel/DFXSviPyjax/?igsh=cWdraTR0NjZvejhj">
+				<img src="https://i.postimg.cc/j5KkQCXS/Image-881.jpg" 
+				width="375">
+			</a>
+			
+		</td>
+		
+	</tr>
+	
+	
+	<tr>
+		<td colspan="4">
+			
+			<table width="100%"
+						 cellspacing="0" 
+						 cellpadding="7">
+				
+				<tr>
+					
+					<td align="left"
+						  style="color:grey; 
+						  			 font-size:10px;"
+						  width="33.33%">
+						9:30:45 PM
+					</td>
+					
+					<td align="center" 
+							style="color:grey; 
+										 font-size:10px;"
+							width="33.33%">
+						28/01/2025
+					</td>
+					
+					<td align="right" 
+							style="color:grey; 
+										 font-size:10px;"
+							width="33.33%">
+						👁️22 M
+					</td>
+					
+				</tr>
+				
+				
+				<tr>
+					
+					<td class="line"
+							align="left" 
+							style="color:grey; 
+										font-size:10px;""">
+						🤣😆🥲
+					</td>
+					
+					<td class="line"
+							colspan="2" 
+							align="right" 
+						  style="color:grey; 
+						   	 		 font-size:10px;">
+						 <b><a class="account" href="https://www.instagram.com/sundeep_comedy?igsh=bXUzazlrdzFmZThl">
+						 	Sundeep
+						 </a>, <a class="account" href="https://www.instagram.com/dejiwastaken?igsh=MWh5ZHJyaGRkZXNwbg==">Deji</a></b> 
+						 Haha'd & Commented
+						 <img class="hudai"
+						 src="https://i.postimg.cc/hv0JzZGG/Screenshot-2025-07-21-03-55-32-921-com-instagram-android-edit.jpg">
+						 <img src="https://i.postimg.cc/26R3HNb6/Screenshot-2025-07-21-03-56-49-648-com-instagram-android-edit.jpg"
+						 class="chudai"> 
+					</td>
+					
+				</tr>
+				
+				
+				<tr>
+					
+					<table width="100%" 
+						 		 cellspacing="0">
+						
+						<tr>
+							
+							<td align="left">
+								
+								<table cellspacing="0">
+									
+									<tr>
+										<td>
+											<button class="buttons">
+											<img width="30"
+											src="https://i.postimg.cc/HxbW6VwJ/IMG-20250717-190641.jpg"></button>
+										</td>
+										
+										<td>
+											<button class="buttons">
+											<img width="30"
+											src="https://i.postimg.cc/br3h5bsv/IMG-20250717-235600.png"></button>
+										</td>
+										
+										<td>
+											<button class="buttons">
+											<img width="30"
+											src="https://i.postimg.cc/bJgWYP8C/3460458-200.png"></button>
+										</td>
+										
+									</tr>
+									
+									
+									<tr style="color:grey; 		 			font-size:12.5px;"
+										align="center">
+										
+										<td>
+											<button class="counter">
+												<span style="color:  	 						 gray; 
+													 			  font-size:
+																	 12.5px;">
+													2M
+												</span>
+											</button>
+										</td>
+
+										<td>
+											<button class="counter">
+												<span style="color:  	 						 gray; 
+													 			  font-size:
+																	 12.5px;">
+													20K
+												</span>
+											</button>
+										</td>
+										
+										<td>
+											<button class="counter">
+												<span style="color:  	 						 gray; 
+													 			  font-size:
+																	 12.5px;">
+													35K
+												</span>
+											</button>
+										</td>
+										
+									</tr>
+									
+								</table>
+								
+							</td>
+							
+							<td align="center" 
+									style="font-size:30px;">
+								<button class="buttons">
+								☰ </button>
+							</td>
+							
+							<td align="right">
+								
+								<table cellspacing="0">
+									
+									<tr>
+										
+										<td>
+											<button class="buttons">
+											<img width="30"
+											src="https://i.postimg.cc/V6k4RCQg/images.png">
+											</button>
+										</td>
+										
+										<td>
+											<button class="buttons">
+												<img width="30"
+											src="https://i.postimg.cc/g2yDbDG4/IMG-20250717-190623.jpg">
+											</button>
+										</td>
+										
+										<td>
+											<button class="buttons">
+												<img width="30"
+											src="https://i.postimg.cc/g2LCV1qj/60239-like-icons-bookmark-button-computer-facebook-instagram.png">
+											</button>
+										</td>
+										
+									</tr>
+									
+									<tr style="color:grey; 		 			font-size:12.5px;"
+										align="center">
+										
+										<td>
+											<button class="counter">
+												<span style="color:  	 						 gray; 
+													 			  font-size:
+																	 12.5px;">
+													4.5M
+												</span>
+											</button>
+										</td>
+
+										<td>
+											<button class="counter">
+												<span style="color:  	 						 gray; 
+													 			  font-size:
+																	 12.5px;">
+													50K
+												</span>
+											</button>
+										</td>
+										
+										<td>
+											<button class="counter">
+												<span style="color:  	 						 gray; 
+													 			  font-size:
+																	 12.5px;">
+													1M
+												</span>
+											</button>
+										</td>
+										
+									</tr>
+									
+								</table>
+								
+							</td>
+							
+						</tr>
+						
+					</table>
+					
+				</tr>
+				
+			</table>
+			
+		</td>
+		
+	</tr>
+	
+</table>
+
+
+
+
+	<!-- ASS -->
+<table cellspacing="0" cellpadding="0"
+ 			 align="center" class="table">
+	<tr>
+		
+		<td rowspan="2" align="center">
+			<a class="name" href="https://www.facebook.com/share/16ddqNHDjt/">
+				<img src="https://i.postimg.cc/xdJhDVzV/Screenshot-2025-07-15-18-34-12-532-com-miui-gallery-edit.jpg" class="profile">
+			</a>
+			<img class="app" src="https://i.postimg.cc/LXc8kHpx/facebook-logo-vector-eps-file-squared-coloured-easily-editable-have-white-background-high-resolution.jpg">
+		</td>
+		
+		<td align="left" 
+			style="font-size:15px;">
+			<strong>
+				<a class="name"
+				href="https://www.instagram.com/safatibnemahmud?igsh=ZnE3N2Z4bjkzYmt0"><b>সাফাত ইবনে মাহমুদ</b></a>
+			</strong>
+		</td>
+		
+		<td align="center" 
+				style="color:silver; 
+						   font-size:10px;">
+			<a class="link"
+			href="https://x.com/SAFAT25022005?s=09">@SIM25
+			</a>
+		</td>
+		
+		<td rowspan="2" 
+				align="right" 
+				style="color:white; 
+							 font-size:20px;">
+			<button class="button">
+				<strong><b>Follow</b></strong>
+			</button> 
+			<button class="buttons">
+			<span style="color:black;">
+				&vellip;
+			</span></button>
+		</td>
+	</tr>
+	
+	<tr>
+		
+		<td colspan="2" 
+				align="left" 
+				style="color:grey; 
+							 font-size:10px;">
+			🌎2 Weeks ago 🖊
+			<span style="color:rgb(0, 102, 255);">
+				<b><u>Edited</u></b>
+				3 Days ago
+			</span>
+		</td>
+		
+	</tr>
+	
+	<tr>
+		
+		<td colspan="4" 
+		  	style="font-size: 15px;">
+			 <div class="tittle">
+			<p>She could've at least wore a loose dress that's </p><p>long enough to cover her thick ass,</p><p>you stupid dumbfuck😒</p>
+			 </div>
+		</td>
+		
+	</tr>
+	
+	
+	<tr>
+		
+		<td colspan="4" width="375">
+			
+			<a href="https://www.reddit.com/r/clevercomebacks/s/dCvwLzaZxm">
+				<img src="https://i.postimg.cc/Yq4JK1QL/RDT-20250720-0057474517315500059651863.png" 
+				width="375">
+			</a>
+			
+		</td>
+		
+	</tr>
+	
+	
+	<tr>
+		<td colspan="4">
+			
+			<table width="100%"
+						 cellspacing="0" 
+						 cellpadding="7">
+				
+				<tr>
+					
+					<td align="left"
+						  style="color:grey; 
+						  			 font-size:10px;"
+						  width="33.33%">
+						10:30:45 PM
+					</td>
+					
+					<td align="center" 
+							style="color:grey; 
+										 font-size:10px;"
+							width="33.33%">
+						30/06/2025
+					</td>
+					
+					<td align="right" 
+							style="color:grey; 
+										 font-size:10px;"
+							width="33.33%">
+						👁️100.609 K
+					</td>
+					
+				</tr>
+				
+				
+				<tr>
+					
+					<td class="line"
+							align="left" 
+							style="color:grey; 
+										font-size:10px;""">
+						👍😆🤣
+					</td>
+					
+					<td class="line"
+							colspan="2" 
+							align="right" 
+						  style="color:grey; 
+						   	 		 font-size:10px;">
+						 <b><a class="account" href="https://www.facebook.com/share/197ESvhjWT/">
+						 	Pranto
+						 </a>, <a class="account" href="https://www.facebook.com/share/173HJcuGNX/">Jami</a></b> 
+						 Haha'd
+						 <img class="hudai"
+						 src="https://i.postimg.cc/wvp63wcr/Screenshot-2025-07-20-05-31-21-072-com-facebook-orca-edit.jpg">
+						 <img src="https://i.postimg.cc/TY8c1mZD/Screenshot-2025-07-20-05-29-33-544-com-facebook-orca-edit.jpg"
+						 class="chudai"> 
+					</td>
+					
+				</tr>
+				
+				
+				<tr>
+					
+					<table width="100%" 
+						 		 cellspacing="0">
+						
+						<tr>
+							
+							<td align="left">
+								
+								<table cellspacing="0">
+									
+									<tr>
+										<td>
+											<button class="buttons">
+											<img width="30"
+											src="https://i.postimg.cc/HxbW6VwJ/IMG-20250717-190641.jpg"></button>
+										</td>
+										
+										<td>
+											<button class="buttons">
+											<img width="30"
+											src="https://i.postimg.cc/br3h5bsv/IMG-20250717-235600.png"></button>
+										</td>
+										
+										<td>
+											<button class="buttons">
+											<img width="30"
+											src="https://i.postimg.cc/bJgWYP8C/3460458-200.png"></button>
+										</td>
+										
+									</tr>
+									
+									
+									<tr style="color:grey; 		 			font-size:12.5px;"
+										align="center">
+										
+										<td>
+											<button class="counter">
+												<span style="color:  	 						 gray; 
+													 			  font-size:
+																	 12.5px;">
+													20k
+												</span>
+											</button>
+										</td>
+
+										<td>
+											<button class="counter">
+												<span style="color:  	 						 gray; 
+													 			  font-size:
+																	 12.5px;">
+													15k
+												</span>
+											</button>
+										</td>
+										
+										<td>
+											<button class="counter">
+												<span style="color:  	 						 gray; 
+													 			  font-size:
+																	 12.5px;">
+													20k
+												</span>
+											</button>
+										</td>
+										
+									</tr>
+									
+								</table>
+								
+							</td>
+							
+							<td align="center" 
+									style="font-size:30px;">
+								<button class="buttons">
+								☰ </button>
+							</td>
+							
+							<td align="right">
+								
+								<table cellspacing="0">
+									
+									<tr>
+										
+										<td>
+											<button class="buttons">
+											<img width="30"
+											src="https://i.postimg.cc/V6k4RCQg/images.png">
+											</button>
+										</td>
+										
+										<td>
+											<button class="buttons">
+												<img width="30"
+											src="https://i.postimg.cc/g2yDbDG4/IMG-20250717-190623.jpg">
+											</button>
+										</td>
+										
+										<td>
+											<button class="buttons">
+												<img width="30"
+											src="https://i.postimg.cc/g2LCV1qj/60239-like-icons-bookmark-button-computer-facebook-instagram.png">
+											</button>
+										</td>
+										
+									</tr>
+									
+									<tr style="color:grey; 		 			font-size:12.5px;"
+										align="center">
+										
+										<td>
+											<button class="counter">
+												<span style="color:  	 						 gray; 
+													 			  font-size:
+																	 12.5px;">
+													20k
+												</span>
+											</button>
+										</td>
+
+										<td>
+											<button class="counter">
+												<span style="color:  	 						 gray; 
+													 			  font-size:
+																	 12.5px;">
+													15k
+												</span>
+											</button>
+										</td>
+										
+										<td>
+											<button class="counter">
+												<span style="color:  	 						 gray; 
+													 			  font-size:
+																	 12.5px;">
+													20k
+												</span>
+											</button>
+										</td>
+										
+									</tr>
+									
+								</table>
+								
+							</td>
+							
+						</tr>
+						
+					</table>
+					
+				</tr>
+				
+			</table>
+			
+		</td>
+		
+	</tr>
+	
+</table>
+
+
+	<!-- Better Call Saul -->
+<table cellspacing="0" cellpadding="0"
+ 			 align="center" class="table">
+	<tr>
+		
+		<td rowspan="2" align="center">
+			<a class="name" href="https://www.facebook.com/share/16ddqNHDjt/">
+				<img src="https://i.postimg.cc/xdJhDVzV/Screenshot-2025-07-15-18-34-12-532-com-miui-gallery-edit.jpg" class="profile">
+			</a>
+			<img class="app" src="https://i.postimg.cc/LXc8kHpx/facebook-logo-vector-eps-file-squared-coloured-easily-editable-have-white-background-high-resolution.jpg">
+		</td>
+		
+		<td align="left" 
+			style="font-size:15px;">
+			<strong>
+				<a class="name"
+				href="https://www.instagram.com/safatibnemahmud?igsh=ZnE3N2Z4bjkzYmt0"><b>সাফাত ইবনে মাহমুদ</b></a>
+			</strong>
+		</td>
+		
+		<td align="center" 
+				style="color:silver; 
+						   font-size:10px;">
+			<a class="link"
+			href="https://x.com/SAFAT25022005?s=09">@SIM25
+			</a>
+		</td>
+		
+		<td rowspan="2" 
+				align="right" 
+				style="color:white; 
+							 font-size:20px;">
+			<button class="button">
+				<strong><b>Follow</b></strong>
+			</button> 
+			<button class="buttons">
+			<span style="color:black;">
+				&vellip;
+			</span></button>
+		</td>
+	</tr>
+	
+	<tr>
+		
+		<td colspan="2" 
+				align="left" 
+				style="color:grey; 
+							 font-size:10px;">
+			🌎2 Weeks ago 🖊
+			<span style="color:rgb(0, 102, 255);">
+				<b><u>Edited</u></b>
+				3 Days ago
+			</span>
+		</td>
+		
+	</tr>
+	
+	<tr>
+		
+		<td colspan="4" 
+		  	style="font-size: 15px;">
+			 <div class="tittle"><p>
+			 The Greatest Show on Earth ✋🤚
+			 <br> <a style="color: black;
+			 text-decoration: none;"
+			 href="https://tvcharts.co/show/better-call-saul-tt3032476"><u>Better Call Saul </u></a>
+			 (2015-2022)
+			 <button class="buttons">
+			 <span style="color:grey; 
+									  font-size:10px;">
+			 		 ...see more
+			 </span></button></p></div>
+		</td>
+		
+	</tr>
+	
+	
+	<tr>
+		
+		<td colspan="4" width="375">
+			
+			<a href="https://www.imdb.com/title/tt3032476/?ref_=ext_shr">
+				<img src="https://i.postimg.cc/q79qjZvj/Screenshot-2025-07-20-01-15-45-379-com-miui-gallery-edit.jpg" 
+				width="375">
+			</a>
+			
+		</td>
+		
+	</tr>
+	
+	
+	<tr>
+		<td colspan="4">
+			
+			<table width="100%"
+						 cellspacing="0" 
+						 cellpadding="7">
+				
+				<tr>
+					
+					<td align="left"
+						  style="color:grey; 
+						  			 font-size:10px;"
+						  width="33.33%">
+						10:30:45 PM
+					</td>
+					
+					<td align="center" 
+							style="color:grey; 
+										 font-size:10px;"
+							width="33.33%">
+						30/06/2025
+					</td>
+					
+					<td align="right" 
+							style="color:grey; 
+										 font-size:10px;"
+							width="33.33%">
+						👁️100.609 K
+					</td>
+					
+				</tr>
+				
+				
+				<tr>
+					
+					<td class="line"
+							align="left" 
+							style="color:grey; 
+										font-size:10px;""">
+						👍😆🥰
+					</td>
+					
+					<td class="line"
+							colspan="2" 
+							align="right" 
+						  style="color:grey; 
+						   	 		 font-size:10px;">
+						 <b><a class="account" href="">
+						 	Hudai
+						 </a>, <a class="account" href="">Chudai</a></b> 
+						 Liked & Commented
+						 <img class="hudai"
+						 src="https://i.postimg.cc/j5nGsMKw/Screenshot-2025-07-20-01-53-01-580-com-google-android-apps-docs-editors-docs-edit.jpg">
+						 <img src="https://i.postimg.cc/J066ZJ1V/Screenshot-2025-07-20-02-18-18-747-com-google-android-apps-docs-editors-docs-edit.jpg"
+						 class="chudai"> 
+					</td>
+					
+				</tr>
+				
+				
+				<tr>
+					
+					<table width="100%" 
+						 		 cellspacing="0">
+						
+						<tr>
+							
+							<td align="left">
+								
+								<table cellspacing="0">
+									
+									<tr>
+										<td>
+											<button class="buttons">
+											<img width="30"
+											src="https://i.postimg.cc/HxbW6VwJ/IMG-20250717-190641.jpg"></button>
+										</td>
+										
+										<td>
+											<button class="buttons">
+											<img width="30"
+											src="https://i.postimg.cc/br3h5bsv/IMG-20250717-235600.png"></button>
+										</td>
+										
+										<td>
+											<button class="buttons">
+											<img width="30"
+											src="https://i.postimg.cc/bJgWYP8C/3460458-200.png"></button>
+										</td>
+										
+									</tr>
+									
+									
+									<tr style="color:grey; 		 			font-size:12.5px;"
+										align="center">
+										
+										<td>
+											<button class="counter">
+												<span style="color:  	 						 gray; 
+													 			  font-size:
+																	 12.5px;">
+													20k
+												</span>
+											</button>
+										</td>
+
+										<td>
+											<button class="counter">
+												<span style="color:  	 						 gray; 
+													 			  font-size:
+																	 12.5px;">
+													15k
+												</span>
+											</button>
+										</td>
+										
+										<td>
+											<button class="counter">
+												<span style="color:  	 						 gray; 
+													 			  font-size:
+																	 12.5px;">
+													20k
+												</span>
+											</button>
+										</td>
+										
+									</tr>
+									
+								</table>
+								
+							</td>
+							
+							<td align="center" 
+									style="font-size:30px;">
+								<button class="buttons">
+								☰ </button>
+							</td>
+							
+							<td align="right">
+								
+								<table cellspacing="0">
+									
+									<tr>
+										
+										<td>
+											<button class="buttons">
+											<img width="30"
+											src="https://i.postimg.cc/V6k4RCQg/images.png">
+											</button>
+										</td>
+										
+										<td>
+											<button class="buttons">
+												<img width="30"
+											src="https://i.postimg.cc/g2yDbDG4/IMG-20250717-190623.jpg">
+											</button>
+										</td>
+										
+										<td>
+											<button class="buttons">
+												<img width="30"
+											src="https://i.postimg.cc/g2LCV1qj/60239-like-icons-bookmark-button-computer-facebook-instagram.png">
+											</button>
+										</td>
+										
+									</tr>
+									
+									<tr style="color:grey; 		 			font-size:12.5px;"
+										align="center">
+										
+										<td>
+											<button class="counter">
+												<span style="color:  	 						 gray; 
+													 			  font-size:
+																	 12.5px;">
+													20k
+												</span>
+											</button>
+										</td>
+
+										<td>
+											<button class="counter">
+												<span style="color:  	 						 gray; 
+													 			  font-size:
+																	 12.5px;">
+													15k
+												</span>
+											</button>
+										</td>
+										
+										<td>
+											<button class="counter">
+												<span style="color:  	 						 gray; 
+													 			  font-size:
+																	 12.5px;">
+													20k
+												</span>
+											</button>
+										</td>
+										
+									</tr>
+									
+								</table>
+								
+							</td>
+							
+						</tr>
+						
+					</table>
+					
+				</tr>
+				
+			</table>
+			
+		</td>
+		
+	</tr>
+	
+</table>
+
+
+
+</div>
+
+<div class="footer"
+align="center" style="
+position: fixed;
+  		bottom:0;
+  		left:0;
+  		right: 0;
+  		justify-content: space between;
+  		align-content: center;
+  		background-color: white;
+  		border-top: 1px solid gray;
+  		height: 50px;
+  		z-index: 1;">
+	
+	<div>
+		<div>
+			<img src="https://i.postimg.cc/507NG415/IMG-20250720-023729.png">
+		</div>
+		<div>
+			<strong><b>Home</b></strong>
+		</div>
+	</div>
+	
+	<div>
+		<div>
+			<img src="https://i.postimg.cc/nckZwVkX/Screenshot-2025-07-20-02-36-14-310-com-google-android-apps-docs-editors-docs-edit.jpg"
+			style="margin-bottom:7px;">
+		</div>
+		<div>
+			Messages
+		</div>
+	</div>
+
+  <div>
+		<div>
+			<img src="https://i.postimg.cc/RZKYbg9X/Screenshot-2025-07-20-02-30-54-497-com-miui-gallery-edit.jpg" style="margin-bottom:5px;">
+		</div>
+		<div>
+			Browse
+		</div>
+	</div>
+	
+	<div>
+		<div>
+			<img src="https://i.postimg.cc/1tjMzFs8/IMG-20250720-023009.png">
+		</div>
+		<div>
+			Shorts
+		</div>
+	</div>
+	
+	<div>
+		<div>
+			<img src="https://i.postimg.cc/tChfBr9D/IMG-20250720-022804.png">
+		</div>
+		<div>
+			Library
+		</div>
+	</div>
+
+	
+	
+	</div>
+
+<p align="center" style="
+margin-top: 80px;">I can add more content if I want but I need to</p>
+<p align="center">watch some webseries now🙃</p>
+
+  <script src="main.js"></script>
+</body>
+</html>
