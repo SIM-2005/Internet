@@ -148,7 +148,7 @@
   		background-color: lightgray;
   	}
   	
-  	.button {
+  	.follow{
   		width:90px;
   		height:30px;
   		background-color: dodgerblue;
@@ -158,9 +158,15 @@
   		font-size: 20px;
   	}
   	
-  	.button:active {
+  	.follow:active {
   		background-color: powderblue;
   	}
+  	
+     .follow-clicked{
+       color: black ;
+       background-color : lightgray;
+     }
+  	
   	
   	.subscribe{
   		width:100px;
@@ -181,6 +187,11 @@
   	.subscribe:active{
   		background-color: black ;
   	}
+  	
+			.subscribe-clicked{
+        background-color: black;
+        width: 95 px;
+      }  	
   	
   	.buttons {
   		font-size: 25px;
@@ -255,8 +266,6 @@
   <!-- HTML -->
   
 
-  <!-- Custom Styles -->
-  <link rel="stylesheet" href="style.css">
 </head>
 
 <body style="
@@ -349,7 +358,7 @@ z-index: 2;" align="center">
 				align="right" 
 				style="color:white; 
 							 font-size:20px;">
-			<button class="subscribe">
+			<button class="subscribe" onclick="subs()">
 				<strong><b>Subscribe</b></strong>
 			</button> 
 			<button class="buttons">
@@ -642,7 +651,7 @@ z-index: 2;" align="center">
 				align="right" 
 				style="color:white; 
 							 font-size:20px;">
-			<button class="button">
+			<button class="follow" onclick="follow()">
 				<strong><b>Follow</b></strong>
 			</button> 
 			<button class="buttons">
@@ -941,7 +950,7 @@ z-index: 2;" align="center">
 				align="right" 
 				style="color:white; 
 							 font-size:20px;">
-			<button class="button">
+			<button class="follow" onclick="follow()">
 				<strong><b>Follow</b></strong>
 			</button> 
 			<button class="buttons">
@@ -976,7 +985,7 @@ z-index: 2;" align="center">
 		
 		<td colspan="4" width="375">
 			
-			<video src="/Internet/gay.mp4" controls preload="none" loop width="375" poster="https://i.postimg.cc/j5KkQCXS/Image-881.jpg"></video>
+			<video src="/Internet/gay.mp4" controls preload="none" width="375" poster="https://i.postimg.cc/j5KkQCXS/Image-881.jpg"></video>
 		
 		</td>
 		
@@ -1238,7 +1247,7 @@ z-index: 2;" align="center">
 				align="right" 
 				style="color:white; 
 							 font-size:20px;">
-			<button class="button">
+			<button class="follow" onclick="follow()">
 				<strong><b>Follow</b></strong>
 			</button> 
 			<button class="buttons">
@@ -1542,7 +1551,7 @@ z-index: 2;" align="center">
 				align="right" 
 				style="color:white; 
 							 font-size:20px;">
-			<button class="subscribe">
+			<button class="subscribe" onclick="subs()">
 				<strong><b>Subscribe</b></strong>
 			</button> 
 			<button class="buttons">
@@ -1838,7 +1847,7 @@ z-index: 2;" align="center">
 				align="right" 
 				style="color:white; 
 							 font-size:20px;">
-			<button class="subscribe">
+			<button class="subscribe" onclick="subs()">
 				<strong><b>Subscribe</b></strong>
 			</button> 
 			<button class="buttons">
@@ -2133,7 +2142,7 @@ z-index: 2;" align="center">
 				align="right" 
 				style="color:white; 
 							 font-size:20px;">
-			<button class="button">
+			<button class="follow" onclick="follow()">
 				<strong><b>Follow</b></strong>
 			</button> 
 			<button class="buttons">
@@ -2419,7 +2428,7 @@ z-index: 2;" align="center">
 				align="right" 
 				style="color:white; 
 							 font-size:20px;">
-			<button class="button">
+			<button class="follow" onclick="follow()">
 				<strong><b>Follow</b></strong>
 			</button> 
 			<button class="buttons">
@@ -2703,7 +2712,7 @@ z-index: 2;" align="center">
 				align="right" 
 				style="color:white; 
 							 font-size:20px;">
-			<button class="subscribe">
+			<button class="subscribe" onclick="subs()">
 				<strong><b>Subscribe</b></strong>
 			</button> 
 			<button class="buttons">
@@ -2991,7 +3000,7 @@ z-index: 2;" align="center">
 				align="right" 
 				style="color:white; 
 							 font-size:20px;">
-			<button class="subscribe">
+			<button class="subscribe" onclick="subs()">
 				<strong><b>Subscribe</b></strong>
 			</button> 
 			<button class="buttons">
@@ -3286,7 +3295,7 @@ z-index: 2;" align="center">
 				align="right" 
 				style="color:white; 
 							 font-size:20px;">
-			<button class="button">
+			<button class="follow" onclick="follow()">
 				<strong><b>Follow</b></strong>
 			</button> 
 			<button class="buttons">
@@ -3582,7 +3591,7 @@ z-index: 2;" align="center">
 				align="right" 
 				style="color:white; 
 							 font-size:20px;">
-			<button class="button">
+			<button class="follow" onclick="follow()">
 				<strong><b>Follow</b></strong>
 			</button> 
 			<button class="buttons">
@@ -3651,7 +3660,7 @@ z-index: 2;" align="center">
 				align="right" 
 				style="color:white; 
 							 font-size:20px;">
-			<button class="button">
+			<button class="follow" onclick="follow()">
 				<strong><b>Follow</b></strong>
 			</button> 
 			<button class="buttons">
@@ -4053,7 +4062,7 @@ Japan breaks world internet speed record with 1.02 petabits per second, enough t
 				align="right" 
 				style="color:white; 
 							 font-size:20px;">
-			<button class="button">
+			<button class="follow" onclick="follow()">
 				<strong><b>Follow</b></strong>
 			</button> 
 			<button class="buttons">
@@ -4398,11 +4407,10 @@ position: fixed;
 	</div>
 
 <br><br><br>
-<div
-align="center">I can add more content if I want but I need to watch some webseries now🙃</div>
+<div align="center">I can add more content if I want but I need to watch some webseries now🙃</div>
 
 
 
-  <script src="main.js"></script>
+  <script src="/Internet/main.js"></script>
 </body>
 </html>
