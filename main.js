@@ -12,7 +12,7 @@ function subs() {
 
 let follow = document.querySelector(".follow");
 
-function follow() {
+function clickingfollow() {
   if (follow.innerHTML === 'Follow') { 
     follow.innerHTML = 'Following';
     follow.classList.add('follow-clicked');}
