@@ -1,23 +1,22 @@
-let subscribe = document.querySelector(".subscribe");
-
-function subs() {
-  if (subscribe.innerHTML === 'Subscribe') { subscribe.innerHTML = 'Subscribed';
-    subscribe.classList.add('subscribe-clicked');}
+document.querySelectorAll('.subscribe').forEach((button) => {
+  button.addEventListener('click', () => {
+    if (button.innerHTML === 'Subscribe') { button.innerHTML = 'Subscribed';
+    button.classList.add('subscribe-clicked');}
   else {
-    subscribe.innerHTML = 'Subscribe';
-    subscribe.classList.remove('subscribe-clicked');
+    button.innerHTML = 'Subscribe';
+    button.classList.remove('subscribe-clicked');
   }
-}
+  });
+});
 
 
-let follow = document.querySelector(".follow");
-
-function clickingfollow() {
-  if (follow.innerHTML === 'Follow') { 
-    follow.innerHTML = 'Following';
-    follow.classList.add('follow-clicked');}
+document.querySelectorAll('.follow').forEach((button) => {
+  button.addEventListener('click', () => {
+    if (button.innerHTML === 'Follow') { button.innerHTML = 'Following';
+    button.classList.add('follow-clicked');}
   else {
-    follow.innerHTML = 'Follow';
-    follow.classList.remove('follow-clicked');
+    button.innerHTML = 'Follow';
+    button.classList.remove('follow-clicked');
   }
-}
+  });
+});
