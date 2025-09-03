@@ -221,7 +221,7 @@
      }
       
       .Subscribe{
-        width:90px;
+        width:95px;
         height:30px;
         background-color:red;
         color: white;
@@ -238,7 +238,6 @@
       
       .Subscribe-clicked{
         background-color: black;
-        width: 95px;
         font-weight: bold;
         font-size: 17.5px;
       }
