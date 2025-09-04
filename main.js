@@ -31,7 +31,7 @@ const safat = {
 
 
 const posts = [
-  
+
   // LAVA
   {
     account : {
@@ -249,7 +249,7 @@ const posts = [
     
     commentSection : {
       hidden : `
-      class="comment-section"
+      hidden
       `,
       
       profile : {
@@ -1463,6 +1463,299 @@ const posts = [
     }
   },
  
+  // Butt Joke
+  {
+    account: {
+      profilePicture: {
+        link: 'https://www.instagram.com/yeahmadtv?igsh=cXltdGQxdHZmZGNv',
+        image: 'https://i.postimg.cc/hjwcgkC6/FB-IMG-1753322477732.jpg',
+        appIcon: `${instagram}`
+      },
+      
+      userName: {
+        name: {
+          link: 'https://www.facebook.com/share/19LpEHKF4R/',
+          text: 'Yeah Mad'
+        },
+        userID: {
+          link: 'https://m.youtube.com/@yeahmadtv',
+          text: '@yeahmadtv'
+        },
+        uploaded: {
+          uploadingTime: '1 Year ago',
+          edited: '',
+          editingTime: ''
+        }
+      },
+      
+      followORsubscribe: 'Follow',
+    },
+    
+    title: {
+      link: 'https://www.instagram.com/reel/C4x1khVvXFF/?igsh=bWMzdmtrN3V2ZWh1',
+      text: 'Classic dad jokes pt 2.'
+    },
+    
+    content: `
+      <video src="/Internet/joke.mp4" controls preload="none"  loop width="375" poster="https://i.postimg.cc/sx4zSMfd/Image-223.jpg"></video>
+      `,
+    
+    timeDateViews: {
+      time: '9:30:45 PM',
+      date: '21/03/2024',
+      views: '️40.3 M'
+    },
+    
+    reactions: {
+      emojis: '🤣😆💀',
+      likeComment: `
+      	        <!--Liked & Commented by-->
+	        <div align="right">
+	          
+	          <button>
+	            <a href="https://www.instagram.com/sundeep_comedy?igsh=bXUzazlrdzFmZThl">
+	              <b>
+	                Sundeep
+	              </b>
+	            </a>
+	          </button>
+	          &
+	          <button>
+	            <a href="https://www.instagram.com/dejiwastaken?igsh=MWh5ZHJyaGRkZXNwbg==">
+	              <b>
+	                Deji
+	              </b>
+	            </a>
+	          </button>
+	          Haha'd & Commented
+	          
+	          <!--hudai-->
+	          <img class="hudai" src="https://i.postimg.cc/hv0JzZGG/Screenshot-2025-07-21-03-55-32-921-com-instagram-android-edit.jpg">
+	          
+	          <!--chudai-->
+	          <img class="chudai" src="https://i.postimg.cc/26R3HNb6/Screenshot-2025-07-21-03-56-49-648-com-instagram-android-edit.jpg">
+	        </div>
+      `
+    },
+    
+    buttons: {
+      like: '1.2M',
+      dislike: '20K',
+      comment: '5K',
+      share: '1.2 M',
+      download: '50K',
+      bookmark: '1M'
+    },
+    
+    commentSection: {
+      hidden: `
+        hidden
+        `,
+      
+      profile: {
+        link: '',
+        image: '',
+        appIcon: ''
+      },
+      
+      content: {
+        link: '',
+        name: '',
+        info: '',
+        text: '',
+        
+        gif: '',
+        
+        reactions: '',
+        views: '',
+        
+        buttons: {
+          like: '',
+          reply: '',
+          share: '',
+          bookmark: ''
+        }
+      }
+    },
+    
+    replySection: {
+      hidden: `
+        
+        `,
+      
+      profile: {
+        link: '',
+        image: '',
+        appIcon: ''
+      },
+      
+      content: {
+        link: '',
+        name: '',
+        info: '',
+        text: '',
+        
+        gif: '',
+        
+        reactions: '',
+        views: '',
+        
+        buttons: {
+          like: '',
+          reply: '',
+          share: '',
+          bookmark: ''
+        }
+      }
+    }
+  },
+
+  // Layout 
+  {
+    account: {
+      profilePicture: {
+        link: '',
+        image: '',
+        appIcon: ``
+      },
+      
+      userName: {
+        name: {
+          link: '',
+          text: ''
+        },
+        userID: {
+          link: '',
+          text: ''
+        },
+        uploaded: {
+          uploadingTime: '',
+          edited: '',
+          editingTime: ''
+        }
+      },
+      
+      followORsubscribe: '',
+    },
+    
+    title: {
+      link: '',
+      text: ''
+    },
+    
+    content: `
+      
+      `,
+    
+    timeDateViews: {
+      time: '',
+      date: '',
+      views: ''
+    },
+    
+    reactions: {
+      emojis: '',
+      likeComment: `
+           <!--Liked & Commented by-->
+           <div align="right">
+             
+             <button>
+               <a href="">
+                 <b>
+                   
+                 </b>
+               </a>
+             </button>
+             
+             <button>
+               <a href="">
+                 <b>
+                   
+                 </b>
+               </a>
+             </button>
+             
+             <!--hudai-->
+             <img class="hudai" src="">
+             
+             <!--chudai-->
+             <img class="chudai" src="">
+           </div>
+        `
+    },
+    
+    buttons: {
+      like: '',
+      dislike: '',
+      comment: '',
+      share: '',
+      download: '',
+      bookmark: ''
+    },
+    
+    commentSection: {
+      hidden: `
+        
+        `,
+      
+      profile: {
+        link: '',
+        image: '',
+        appIcon: ''
+      },
+      
+      content: {
+        link: '',
+        name: '',
+        info: '',
+        text: '',
+        
+        gif: '',
+        
+        reactions: '',
+        views: '',
+        
+        buttons: {
+          like: '',
+          reply: '',
+          share: '',
+          bookmark: ''
+        }
+      }
+    },
+    
+    replySection: {
+      hidden: `
+        
+        `,
+      
+      profile: {
+        link: '',
+        image: '',
+        appIcon: ''
+      },
+      
+      content: {
+        link: '',
+        name: '',
+        info: '',
+        text: '',
+        
+        gif: '',
+        
+        reactions: '',
+        views: '',
+        
+        buttons: {
+          like: '',
+          reply: '',
+          share: '',
+          bookmark: ''
+        }
+      }
+    }
+  },
+
 
 ];
 
