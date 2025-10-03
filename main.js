@@ -14,7 +14,8 @@ const safat = {
   link : {
     facebook : 'https://www.facebook.com/share/16H6M1CfVN/',
     instagram : 'https://www.instagram.com/safatibnemahmud?igsh=ZnE3N2Z4bjkzYmt0',
-    twitter : 'https://x.com/SAFAT25022005?s=09'
+    twitter : 'https://x.com/SAFAT25022005?s=09',
+    threads : `https://www.threads.com/@safatibnemahmud`
   },
   image : {
     facebook: 'https://i.postimg.cc/xdJhDVzV/Screenshot-2025-07-15-18-34-12-532-com-miui-gallery-edit.jpg',
@@ -352,7 +353,7 @@ const posts = [
     },
     
     content : `
-    <video src="/Internet/nobody.mp4" controls preload="none" poster="https://i.postimg.cc/D0pqStV1/Screenshot-2025-07-21-14-04-20-724-com-google-android-youtube-edit.jpg"></video>
+    <video src="https://video.twimg.com/amplify_video/1922303035323170817/vid/avc1/1920x1080/Tr8MUms-vAyVoWzn.mp4?tag=16" controls preload="none" poster="https://i.postimg.cc/D0pqStV1/Screenshot-2025-07-21-14-04-20-724-com-google-android-youtube-edit.jpg"></video>
     `,
     
     timeDateViews : {
@@ -1307,6 +1308,168 @@ const posts = [
 		}
 	},  
 
+  // Internet Speed
+  {
+    account: {
+      profilePicture: {
+        link: 'https://x.com/GlobeEyeNews?s=09',
+        image: 'https://pbs.twimg.com/profile_images/1693932087798267904/euVdeaHb.jpg',
+        appIcon: `${twitter}`
+      },
+      
+      userName: {
+        name: {
+          link: 'https://x.com/GlobeEyeNews?s=09',
+          text: 'Globe Eye News'
+        },
+        userID: {
+          link: 'https://x.com/GlobeEyeNews?s=09',
+          text: '@GlobeEyeNews'
+        },
+        uploaded: {
+          uploadingTime: '1 Month ago',
+          edited: '',
+          editingTime: ''
+        }
+      },
+      
+      followORsubscribe: 'Follow',
+    },
+    
+    title: {
+      link: 'https://x.com/GlobeEyeNews/status/1943204157726343177?s=19',
+      text: `BREAKING: <br><br>
+
+Japan breaks world internet speed record with 1.02 petabits per second, enough to download all of Netflix in one second.`
+    },
+    
+    content: `
+      <a href="https://i.postimg.cc/bNfBRxLf/20250726-024604.jpg">
+				<img src="https://i.postimg.cc/bNfBRxLf/20250726-024604.jpg"
+			style="width: 180px;
+			border-top-left-radius: 20px; 
+				border-bottom-left-radius: 20px;
+				border: 0.5px solid black;">
+			</a>
+				
+			<a href="https://i.postimg.cc/J0YtRrpb/20250726-024602.jpg">
+				<img src="https://i.postimg.cc/J0YtRrpb/20250726-024602.jpg"
+			style=" width: 180px;
+			border-top-right-radius:20px; 
+				border-bottom-right-radius: 20px;
+				border: 0.5px solid black;">
+			</a>
+      `,
+    
+    timeDateViews: {
+      time: '1:02 PM',
+      date: '10/07/25',
+      views: '12.1 M'
+    },
+    
+    reactions: {
+      emojis: '',
+      likeComment: `
+           <!--Liked & Commented by-->
+           <div align="right">
+             
+             <button>
+               <a href="">
+                 <b>
+                   
+                 </b>
+               </a>
+             </button>
+             
+             <button>
+               <a href="">
+                 <b>
+                   
+                 </b>
+               </a>
+             </button>
+             
+             <!--hudai-->
+             
+             
+             <!--chudai-->
+             
+           </div>
+        `
+    },
+    
+    buttons: {
+      like: '245 K',
+      dislike: '',
+      comment: '2.7 K',
+      share: '27.7 K',
+      download: '',
+      bookmark: '16.4 K'
+    },
+    
+    commentSection: {
+      hidden: `
+        class="comment-section"
+        `,
+      
+      profile: {
+        link: 'https://x.com/TanayVasishtha?s=09',
+        image: 'https://pbs.twimg.com/profile_images/1933901529888780288/PixFobd4.jpg',
+        appIcon: `${twitter}`
+      },
+      
+      content: {
+        link: 'https://x.com/TanayVasishtha?s=09',
+        name: 'Tanay',
+        info: '2:08 PM - 10/07/25',
+        text: `<a href="https://x.com/TanayVasishtha/status/1943220754012868913?s=19">All of that speed just to watch some hentai is crazy.</a>`,
+        
+        gif: '',
+        
+        reactions: '',
+        views: '372 K',
+        
+        buttons: {
+          like: '16 K',
+          reply: '101',
+          share: '322',
+          bookmark: '189'
+        }
+      }
+    },
+    
+    replySection: {
+      hidden: `
+        hidden
+        `,
+      
+      profile: {
+        link: '',
+        image: '',
+        appIcon: ''
+      },
+      
+      content: {
+        link: '',
+        name: '',
+        info: '',
+        text: '',
+        
+        gif: '',
+        
+        reactions: '',
+        views: '',
+        
+        buttons: {
+          like: '',
+          reply: '',
+          share: '',
+          bookmark: ''
+        }
+      }
+    }
+  },
+
   // Pink Lips
   {
     account : {
@@ -1497,7 +1660,7 @@ const posts = [
     },
     
     content: `
-      <video src="/Internet/joke.mp4" controls preload="none"  loop width="375" poster="https://i.postimg.cc/sx4zSMfd/Image-223.jpg"></video>
+      <video src="/Internet/joke.mp4" controls preload="none" poster="https://i.postimg.cc/sx4zSMfd/Image-223.jpg"></video>
       `,
     
     timeDateViews: {
@@ -1610,7 +1773,376 @@ const posts = [
     }
   },
 
-  // Layout 
+  // Doom Petrol 
+  {
+    account: {
+      profilePicture: {
+        link: `${safat.link.threads}`,
+        image: `${safat.image.instagram}`,
+        appIcon: `${threads}`
+      },
+      
+      userName: {
+        name: {
+          link: `${safat.link.threads}`,
+          text: `${safat.name.instagram}
+          <span style="color: gray">Reposted</span>`
+        },
+        userID: {
+          link: `${safat.link.twitter}`,
+          text: `${safat.name.address}`
+        },
+        uploaded: {
+          uploadingTime: '2 Months ago',
+          edited: '',
+          editingTime: ''
+        }
+      },
+      
+      followORsubscribe: 'Follow',
+    },
+    
+    title: {
+      link: 'https://www.threads.com/@safatibnemahmud/post/DNmaEzEv5QF?xmt=AQF0mCJA1-TTVDg4T573JM9s1CKq8t5-gqjTbHwGW43ihQ&slof=1',
+      text: 'This was the Best fucking moment of Doom Patrol 😭😭😭'
+    },
+    
+    content: `
+      	    <div class="repost">
+	      <!--Account-->
+	      <div class="account">
+	       <!--Profile Picture-->
+	        <div>
+	          <a href="https://www.threads.com/@lookitscj_">
+	            <img class="profile" src="https://i.postimg.cc/vZC47YmT/Screenshot-2025-09-12-17-45-09-655-com-instagram-barcelona-edit.jpg">
+	          </a>
+	          
+	          <!--App icon-->
+	          <img class="app" src="${threads}">
+	        </div>
+	        
+	       <!--User Name-->
+	        <div>
+	          <!--Name-->
+	          <div class="name">
+	            <button>
+	              <a href="https://www.threads.com/@lookitscj_">
+	                <strong>
+	                  <b>
+	                    lookitscj_
+	                  </b>
+	                </strong>
+	              </a>
+	            </button>
+	          </div>
+	          
+	          <!--User ID-->
+	          <div>
+	            <button>
+	              <a href="" class="id">
+	                
+	              </a>
+	            </button>
+	          </div>
+	          
+	          <!--Uploaded-->
+	          <div class="uploaded">
+	            <!--Uploading Time-->
+	            <div>
+	              🌎2 Months ago
+	            </div>
+	            
+	            <!--Editing Time-->
+	            <div class="edited">
+	              <strong>
+	                <b>
+	                  <u>
+	                    
+	                  </u>
+	                </b>
+	              </strong>
+	              
+	            </div>
+	          </div>
+	        </div>
+	        
+	       <!--Follow / Subscribe-->
+	        <div class="menubar" align="right ">
+	          <!--Button-->
+	          <button class="Follow"
+	           >
+	            <strong>
+	              <b>
+	               Follow
+	              </b>
+	            </strong>
+	          </button>
+	          
+	        </div>
+	      </div>
+	      
+	      <!--Text / Title-->
+	      <div>
+	        <a href="https://www.threads.com/@lookitscj_/post/DNlsW1yJrx1?xmt=AQF0fDJ1MX39WntccZUYcDHROjD2xrXT0ZQvwiUWK-SEjA&slof=1">
+	          <p>
+	            Making everyone bust a nut (including the street) all because he flexed the wrong muscle is insane😭
+	          </p>
+	        </a>
+	      </div>
+	      
+	      <!--content-->
+	      <div>
+	       <video src="/Internet/Doom Patrol.mp4" controls preload="none" poster="https://i.postimg.cc/vZvVyF8Z/Screenshot-2025-09-12-17-56-28-757-com-instagram-barcelona-edit.jpg"></video>
+	      </div>
+	      
+	      <!--Time-Date-Views-->
+	      <div class="Time-Date-Views">
+	        <!--Time-->
+	        <div align="left">
+	          8:00:00 AM
+	        </div>
+	        
+	        <!--Date-->
+	        <div align="center">
+	          21/08/2025
+	        </div>
+	        
+	        <!--Views-->
+	        <div align="right">
+	          750K👁️
+	        </div>
+	      </div>
+	    </div>
+
+      `,
+    
+    timeDateViews: {
+      time: '5:00 PM',
+      date: '21/08/2025',
+      views: '35'
+    },
+    
+    reactions: {
+      emojis: '',
+      likeComment: ''
+    },
+    
+    buttons: {
+      like: '',
+      dislike: '',
+      comment: '',
+      share: '',
+      download: '',
+      bookmark: ''
+    },
+    
+    commentSection: {
+      hidden: `
+        hidden
+        `,
+      
+      profile: {
+        link: '',
+        image: '',
+        appIcon: ''
+      },
+      
+      content: {
+        link: '',
+        name: '',
+        info: '',
+        text: '',
+        
+        gif: '',
+        
+        reactions: '',
+        views: '',
+        
+        buttons: {
+          like: '',
+          reply: '',
+          share: '',
+          bookmark: ''
+        }
+      }
+    },
+    
+    replySection: {
+      hidden: `
+        
+        `,
+      
+      profile: {
+        link: '',
+        image: '',
+        appIcon: ''
+      },
+      
+      content: {
+        link: '',
+        name: '',
+        info: '',
+        text: '',
+        
+        gif: '',
+        
+        reactions: '',
+        views: '',
+        
+        buttons: {
+          like: '',
+          reply: '',
+          share: '',
+          bookmark: ''
+        }
+      }
+    }
+  },
+  
+  // Jawan X Marvel 
+  {
+    account: {
+      profilePicture: {
+        link: 'https://youtube.com/@akeditx?si=VSDfKu76C5sYyNcA',
+        image: 'https://i.postimg.cc/50RwF37C/channels4-profile-1.jpg',
+        appIcon: `${youtube}`
+      },
+      
+      userName: {
+        name: {
+          link: 'https://www.instagram.com/akeditx.official?igsh=MWQ2ZDJiejB1aW1saw==',
+          text: 'Ak Editx'
+        },
+        userID: {
+          link: '',
+          text: ''
+        },
+        uploaded: {
+          uploadingTime: '1 Year ago',
+          edited: '',
+          editingTime: ''
+        }
+      },
+      
+      followORsubscribe: 'Subscribe',
+    },
+    
+    title: {
+      link: 'https://youtu.be/CdVxtdv1ZkY?si=D0ae65G0CcEzqQ93',
+      text: 'JAWAN x MARVEL (JAWAN: TITLE TRACK)'
+    },
+    
+    content: `
+      <video src="/Internet/JAWAN.mp4" controls preload="none" width="375" poster="https://i.postimg.cc/VLVkQhSM/Cd-Vxtdv1-Zk-Y-HD.jpg"></video>
+      `,
+    
+    timeDateViews: {
+      time: '10:00:00 AM',
+      date: '24/09/2023',
+      views: '️830 K'
+    },
+    
+    reactions: {
+      emojis: '🔥❤️🙌',
+      likeComment: `
+           <!--Liked & Commented by-->
+           <div align="right">
+             Liked by
+             <button>
+               <a href="${safat.link.instagram}">
+                 <b>
+                   ${safat.name.instagram}
+                 </b>
+               </a>
+             </button>
+             
+             <button>
+               <a href="">
+                 <b>
+                   
+                 </b>
+               </a>
+             </button>
+             
+             <!--chudai-->
+             <img class="chudai" src="${safat.image.instagram}">
+           </div>
+        `
+    },
+    
+    buttons: {
+      like: '36 K',
+      dislike: '239',
+      comment: '905',
+      share: '7 K',
+      download: '250',
+      bookmark: '2 K'
+    },
+    
+    commentSection: {
+      hidden: `
+        hidden
+        `,
+      
+      profile: {
+        link: '',
+        image: '',
+        appIcon: ''
+      },
+      
+      content: {
+        link: '',
+        name: '',
+        info: '',
+        text: '',
+        
+        gif: '',
+        
+        reactions: '',
+        views: '',
+        
+        buttons: {
+          like: '',
+          reply: '',
+          share: '',
+          bookmark: ''
+        }
+      }
+    },
+    
+    replySection: {
+      hidden: `
+        
+        `,
+      
+      profile: {
+        link: '',
+        image: '',
+        appIcon: ''
+      },
+      
+      content: {
+        link: '',
+        name: '',
+        info: '',
+        text: '',
+        
+        gif: '',
+        
+        reactions: '',
+        views: '',
+        
+        buttons: {
+          like: '',
+          reply: '',
+          share: '',
+          bookmark: ''
+        }
+      }
+    }
+  },
+
+  // Layout
   {
     account: {
       profilePicture: {
@@ -1756,7 +2288,144 @@ const posts = [
     }
   },
 
-
+  // Better Call Saul
+  {
+    account: {
+      profilePicture: {
+        link: `${safat.link.facebook}`,
+        image: `${safat.image.facebook}`,
+        appIcon: `${facebook}`
+      },
+      
+      userName: {
+        name: {
+          link: `${safat.link.instagram}`,
+          text: `${safat.name.facebook}`
+        },
+        userID: {
+          link: `${safat.link.twitter}`,
+          text: `${safat.name.address}`
+        },
+        uploaded: {
+          uploadingTime: '2 Months ago',
+          edited: 'Edited',
+          editingTime: '3 Days ago'
+        }
+      },
+      
+      followORsubscribe: 'Follow',
+    },
+    
+    title: {
+      link: '',
+      text: `<p>
+			 The Greatest Show on Earth ✋🤚
+			 <br> <a style="color: black;
+			 text-decoration: none;"
+			 href="https://i.postimg.cc/prsCzyRm/Screenshot-2025-07-24-02-46-13-513-com-miui-gallery-edit.jpg"><u>Better Call Saul </u></a>
+			 (2015-2022)
+			 <a href="https://en.wikipedia.org/wiki/Better_Call_Saul?wprov=sfla1"><button>
+			 <span style="color:grey; 
+									  font-size:10px;">
+			 		 ...see more
+			 </span></button></a></p>`
+    },
+    
+    content: `
+      <img src="https://i.postimg.cc/q79qjZvj/Screenshot-2025-07-20-01-15-45-379-com-miui-gallery-edit.jpg">
+      `,
+    
+    timeDateViews: {
+      time: '10:30:45 PM',
+      date: '30/06/2025',
+      views: '️100.609 K'
+    },
+    
+    reactions: {
+      emojis: '👍😆🥰',
+      likeComment: `
+           <!--Liked & Commented by-->
+           <div align="right">
+             
+<b>Hudai , Chudai</b>
+Liked & Commented <img class = "hudai"
+src = "https://i.postimg.cc/j5nGsMKw/Screenshot-2025-07-20-01-53-01-580-com-google-android-apps-docs-editors-docs-edit.jpg" >
+	<img src="https://i.postimg.cc/J066ZJ1V/Screenshot-2025-07-20-02-18-18-747-com-google-android-apps-docs-editors-docs-edit.jpg"
+						 class="chudai">           </div>
+        `
+    },
+    
+    buttons: {
+      like: '',
+      dislike: '',
+      comment: '',
+      share: '',
+      download: '',
+      bookmark: ''
+    },
+    
+    commentSection: {
+      hidden: `
+       hidden
+        `,
+      
+      profile: {
+        link: '',
+        image: '',
+        appIcon: ''
+      },
+      
+      content: {
+        link: '',
+        name: '',
+        info: '',
+        text: '',
+        
+        gif: '',
+        
+        reactions: '',
+        views: '',
+        
+        buttons: {
+          like: '',
+          reply: '',
+          share: '',
+          bookmark: ''
+        }
+      }
+    },
+    
+    replySection: {
+      hidden: `
+        
+        `,
+      
+      profile: {
+        link: '',
+        image: '',
+        appIcon: ''
+      },
+      
+      content: {
+        link: '',
+        name: '',
+        info: '',
+        text: '',
+        
+        gif: '',
+        
+        reactions: '',
+        views: '',
+        
+        buttons: {
+          like: '',
+          reply: '',
+          share: '',
+          bookmark: ''
+        }
+      }
+    }
+  }
 ];
 
 let postsHTML = '';
