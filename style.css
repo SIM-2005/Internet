@@ -128,16 +128,15 @@
         
       .webpage{
        display: grid;
-       grid-template-columns: 1fr ;
+       grid-template-columns: 1fr 1fr;
        justify-content: space-between;
       }
       
       	@media (max-width: 400px){
-  		.webpage{
-  			grid-template-columns: 1fr;
-  		}
-  	}
-
+      		.webpage{
+      			grid-template-columns: 1fr;
+      		}
+      	}
       
       .post{
        margin-top: 20px;
@@ -151,6 +150,24 @@
        margin-right: auto;
        margin-bottom: 20px;
       }
+      
+      .repost {
+        margin-top: 20px;
+        padding-top: 5px;
+        padding-left: 5px;
+        background-color: white;
+        border: 1px solid gray;
+        border-radius: 15px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+        width: 365px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+      }  
+      
+     .repost video{
+       width: 365px;
+     }
       
       .profile{
         width: 50px;
@@ -283,7 +300,7 @@
       
       .Time-Date-Views{
         display : grid;
-        grid-template-columns: 125px 125px 125px;
+        grid-template-columns: 1fr 1fr 1fr;
         font-size: 10px;
         color: gray;
         padding-top: 5px;
