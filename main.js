@@ -2142,6 +2142,7 @@ Japan breaks world internet speed record with 1.02 petabits per second, enough t
     }
   },
 
+/*
   // Layout
   {
     account: {
@@ -2287,6 +2288,7 @@ Japan breaks world internet speed record with 1.02 petabits per second, enough t
       }
     }
   },
+*/
 
   // Better Call Saul
   {
@@ -2972,3 +2974,6 @@ document.querySelectorAll('.Follow').forEach((button) => {
   }
   });
 });
+
+document.querySelector('.search').addEventListener('click', () => {alert("This is not a real website Motherfucker 😂😂😂");
+	});
